@@ -7,6 +7,7 @@
     <string name="title_activity_endless_transition">Просмотр фото</string>
     <string name="title_activity_check_box">CheckBox</string>
     <string name="title_activity_spinner">Spinner</string>
+    <string name="title_activity_calendar_view">CalendarView</string>
 
     <string name="username">Имя пользователя</string>
     <string name="email">Электронная почта</string>
@@ -25,7 +26,6 @@
     <string name="cash_address_checkbox">Наличными по адресу</string>
 
     <string name="show_address">Показать адрес</string>
-
     <string-array name="countries">
         <item>Россия</item>
         <item>Украина</item>
@@ -46,4 +46,7 @@
         <item>Гомель</item>
         <item>Торжок</item>
     </string-array>
+
+    <string name="choose_start_date">Дата-время старта задачи:</string>
+    <string name="choose_end_date">Дата-время окончания задачи:</string>
 </resources>

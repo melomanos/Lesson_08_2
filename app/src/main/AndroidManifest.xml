@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SpinnerActivity"
-            android:label="@string/title_activity_spinner">
+            android:name=".CalendarViewActivity"
+            android:label="@string/title_activity_calendar_view">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,23 +19,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CheckBoxActivity"
-            android:label="@string/title_activity_check_box">
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner">
         </activity>
         <activity
+            android:name=".CheckBoxActivity"
+            android:label="@string/title_activity_check_box"></activity>
+        <activity
             android:name=".EndlessTransition"
-            android:label="@string/title_activity_endless_transition"></activity>
+            android:label="@string/title_activity_endless_transition" />
         <activity
             android:name=".EntryForm"
-            android:label="@string/title_activity_entry_form"></activity>
+            android:label="@string/title_activity_entry_form" />
         <activity
             android:name=".SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_screen"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".FirstActivity"
-            android:label="@string/title_activity_first"></activity>
+            android:label="@string/title_activity_first" />
     </application>
 
 </manifest>
