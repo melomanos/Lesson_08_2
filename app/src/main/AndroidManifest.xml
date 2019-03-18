@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CalendarViewActivity"
-            android:label="@string/title_activity_calendar_view">
+            android:name=".SharedPreferencesNotesActivity"
+            android:label="@string/title_activity_shared_preferences_notes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,12 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SpinnerActivity"
-            android:label="@string/title_activity_spinner">
+            android:name=".CalendarViewActivity"
+            android:label="@string/title_activity_calendar_view">
         </activity>
         <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner"></activity>
+        <activity
             android:name=".CheckBoxActivity"
-            android:label="@string/title_activity_check_box"></activity>
+            android:label="@string/title_activity_check_box" />
         <activity
             android:name=".EndlessTransition"
             android:label="@string/title_activity_endless_transition" />

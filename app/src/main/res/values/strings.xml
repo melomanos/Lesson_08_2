@@ -8,6 +8,7 @@
     <string name="title_activity_check_box">CheckBox</string>
     <string name="title_activity_spinner">Spinner</string>
     <string name="title_activity_calendar_view">CalendarView</string>
+    <string name="title_activity_shared_preferences_notes">Записная книжка</string>
 
     <string name="username">Имя пользователя</string>
     <string name="email">Электронная почта</string>
@@ -49,4 +50,6 @@
 
     <string name="choose_start_date">Дата-время старта задачи:</string>
     <string name="choose_end_date">Дата-время окончания задачи:</string>
+
+    <string name="save">Сохранить</string>
 </resources>
