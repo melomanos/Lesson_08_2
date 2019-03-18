@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidFilippov</string>
+
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_entry_form">Подписка</string>
+    <string name="title_activity_endless_transition">Просмотр фото</string>
+    <string name="username">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="ok">ОК</string>
+    <string name="clear">Очистить</string>
+    <string name="result"> </string>
+    <string name="back">Назад</string>
+    <string name="forward">Вперёд</string>
+    <string name="randomImage"> </string>
+</resources>
