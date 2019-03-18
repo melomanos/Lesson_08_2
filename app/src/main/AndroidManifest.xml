@@ -18,6 +18,10 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_screen"
             android:theme="@style/FullscreenTheme">
+        </activity>
+        <activity
+            android:name=".EntryForm"
+            android:label="@string/title_activity_entry_form">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,10 +31,6 @@
         <activity
             android:name=".EndlessTransition"
             android:label="@string/title_activity_endless_transition">
-        </activity>
-        <activity
-            android:name=".EntryForm"
-            android:label="@string/title_activity_entry_form">
         </activity>
     </application>
 
