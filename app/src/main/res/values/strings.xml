@@ -5,12 +5,21 @@
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
     <string name="title_activity_entry_form">Подписка</string>
     <string name="title_activity_endless_transition">Просмотр фото</string>
+    <string name="title_activity_check_box">CheckBox</string>
+
     <string name="username">Имя пользователя</string>
     <string name="email">Электронная почта</string>
     <string name="ok">ОК</string>
     <string name="clear">Очистить</string>
     <string name="result"> </string>
+
     <string name="back">Назад</string>
     <string name="forward">Вперёд</string>
     <string name="randomImage"> </string>
+
+    <string name="input_money">Ввод денег</string>
+    <string name="input_info">Информация об оплате</string>
+    <string name="bank_card_checkbox">С банковской карты</string>
+    <string name="mobile_phone_checkbox">С мобильного телефона</string>
+    <string name="cash_address_checkbox">Наличными по адресу</string>
 </resources>
