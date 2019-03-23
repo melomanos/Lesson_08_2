@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".CalcActivity">
+
+    <LinearLayout
+        android:id="@+id/resultTViewCalcLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/resultTViewCalc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:gravity="end"
+            android:text="@string/zero"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstLineBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sevenBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"/>
+
+        <Button
+            android:id="@+id/eightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"/>
+
+        <Button
+            android:id="@+id/nineBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLineBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fourBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"/>
+
+        <Button
+            android:id="@+id/fiveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"/>
+
+        <Button
+            android:id="@+id/sixBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLineBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"/>
+
+        <Button
+            android:id="@+id/twoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"/>
+
+        <Button
+            android:id="@+id/threeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fourthLineBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zeroBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/zero"/>
+
+        <Button
+            android:id="@+id/emptyBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.001"/>
+
+        <Button
+            android:id="@+id/pointBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/point"/>
+    </LinearLayout>
+
+</LinearLayout>

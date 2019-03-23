@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".AppBar">
+        <activity
+            android:name=".CalcActivity"
+            android:label="@string/title_activity_calc">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SharedPreferencesNotesActivity"
-            android:label="@string/title_activity_shared_preferences_notes">
+            android:name=".AppBar"
+            android:label="@string/title_activity_app_bar">
         </activity>
         <activity
+            android:name=".SharedPreferencesNotesActivity"
+            android:label="@string/title_activity_shared_preferences_notes"></activity>
+        <activity
             android:name=".CalendarViewActivity"
-            android:label="@string/title_activity_calendar_view"></activity>
+            android:label="@string/title_activity_calendar_view" />
         <activity
             android:name=".SpinnerActivity"
             android:label="@string/title_activity_spinner" />
