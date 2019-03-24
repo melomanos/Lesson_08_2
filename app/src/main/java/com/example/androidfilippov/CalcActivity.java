@@ -2,12 +2,14 @@ package com.example.androidfilippov;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class CalcActivity extends AppCompatActivity {
-
+    
     private TextView resultTViewCalc;
     private Button zeroBtn;
     private Button oneBtn;
@@ -20,12 +22,18 @@ public class CalcActivity extends AppCompatActivity {
     private Button eightBtn;
     private Button nineBtn;
     private Button pointBtn;
+    private Button changeMode;
+    private Button changeModeI;
+    private RelativeLayout usualMode;
+    private RelativeLayout engineeringMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calc);
         initViews();
+        usualMode.setVisibility(View.GONE);
+        engineeringMode.setVisibility(View.VISIBLE);
 
         zeroBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,6 +111,22 @@ public class CalcActivity extends AppCompatActivity {
                 resultTViewCalc.setText(".");
             }
         });
+
+        changeModeI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                engineeringMode.setVisibility(View.GONE);
+                usualMode.setVisibility(View.VISIBLE);
+            }
+        });
+
+        changeMode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                usualMode.setVisibility(View.GONE);
+                engineeringMode.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
     private void initViews() {
@@ -118,5 +142,9 @@ public class CalcActivity extends AppCompatActivity {
         eightBtn = findViewById(R.id.eightBtn);
         nineBtn = findViewById(R.id.nineBtn);
         pointBtn = findViewById(R.id.pointBtn);
+        changeMode = findViewById(R.id.changeMode);
+        changeModeI = findViewById(R.id.changeModeI);
+        usualMode = findViewById(R.id.usualMode);
+        engineeringMode = findViewById(R.id.engineeringMode);
     }
 }
