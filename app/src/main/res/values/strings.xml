@@ -77,4 +77,11 @@
     <string name="plus">+</string>
     <string name="equals">=</string>
 
+    <string name="letterF">F</string>
+    <string name="letterI">I</string>
+    <string name="letterL">L</string>
+    <string name="letterP">P</string>
+    <string name="letterO">O</string>
+    <string name="letterV">V</string>
+
 </resources>
