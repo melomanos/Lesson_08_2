@@ -12,11 +12,7 @@
         <activity
             android:name=".CalcActivity"
             android:label="@string/title_activity_calc">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AppBar"
@@ -24,30 +20,43 @@
         </activity>
         <activity
             android:name=".SharedPreferencesNotesActivity"
-            android:label="@string/title_activity_shared_preferences_notes"></activity>
+            android:label="@string/title_activity_shared_preferences_notes">
+        </activity>
         <activity
             android:name=".CalendarViewActivity"
-            android:label="@string/title_activity_calendar_view" />
+            android:label="@string/title_activity_calendar_view">
+        </activity>
         <activity
             android:name=".SpinnerActivity"
-            android:label="@string/title_activity_spinner" />
+            android:label="@string/title_activity_spinner">
+        </activity>
         <activity
             android:name=".CheckBoxActivity"
-            android:label="@string/title_activity_check_box" />
+            android:label="@string/title_activity_check_box">
+        </activity>
         <activity
             android:name=".EndlessTransition"
-            android:label="@string/title_activity_endless_transition" />
+            android:label="@string/title_activity_endless_transition">
+        </activity>
         <activity
             android:name=".EntryForm"
-            android:label="@string/title_activity_entry_form" />
+            android:label="@string/title_activity_entry_form">
+        </activity>
         <activity
             android:name=".SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_screen"
-            android:theme="@style/FullscreenTheme" />
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".FirstActivity"
-            android:label="@string/title_activity_first" />
+            android:label="@string/title_activity_first">
+        </activity>
     </application>
 
 </manifest>

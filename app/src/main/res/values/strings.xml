@@ -12,6 +12,8 @@
     <string name="title_activity_app_bar">AppBar</string>
     <string name="title_activity_calc">Калькулятор</string>
 
+    <string name="splash_screen_desc">image</string>
+
     <string name="username">Имя пользователя</string>
     <string name="email">Электронная почта</string>
     <string name="ok">ОК</string>
