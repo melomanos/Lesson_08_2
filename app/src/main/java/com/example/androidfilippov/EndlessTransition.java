@@ -15,16 +15,17 @@ public class EndlessTransition extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_endless_transition);
+        Random random = new Random();
 
         final Button backBtn = (Button) findViewById(R.id.backBtn);
         final Button forwardBtn = (Button) findViewById(R.id.forwardBtn);
         final TextView randomImage = (TextView) findViewById(R.id.randomImage);
 
+        randomImage.setText(String.valueOf(random.nextInt(100) + 1));
+
         forwardBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Random random = new Random();
-                randomImage.setText(String.valueOf(random.nextInt()));
                 Intent intent = new Intent(EndlessTransition.this, EndlessTransition.class);
                 startActivity(intent);
             }
