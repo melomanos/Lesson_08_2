@@ -10,6 +10,7 @@
     <string name="title_activity_calendar_view">CalendarView</string>
     <string name="title_activity_shared_preferences_notes">Записная книжка</string>
     <string name="title_activity_app_bar">AppBar</string>
+    <string name="title_activity_settings">Settings</string>
     <string name="title_activity_calc">Калькулятор</string>
 
     <string name="splash_screen_desc">image</string>

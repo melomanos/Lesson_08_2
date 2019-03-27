@@ -16,15 +16,15 @@
         <activity
             android:name=".AppBar"
             android:label="@string/title_activity_app_bar">
-        </activity>
-        <activity
-            android:name=".SharedPreferencesNotesActivity"
-            android:label="@string/title_activity_shared_preferences_notes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SharedPreferencesNotesActivity"
+            android:label="@string/title_activity_shared_preferences_notes">
         </activity>
         <activity
             android:name=".CalendarViewActivity"

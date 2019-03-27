@@ -14,8 +14,8 @@ public class AppBar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_bar);
 
-        Intent intentNotes = new Intent(AppBar.this, SharedPreferencesNotesActivity.class);
-        startActivity(intentNotes);
+//        Intent intentNotes = new Int.ent(AppBar.this, SharedPreferencesNotesActivity.class);
+//        startActivity(intentNotes);
     }
 
     @Override
