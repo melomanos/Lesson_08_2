@@ -27,6 +27,8 @@ public class SharedPreferencesNotesActivity extends AppCompatActivity {
         mInputNote = findViewById(R.id.inputNote);
         mBtnSaveNote = findViewById(R.id.btnSaveNote);
 
+        myNoteSharedPref = getSharedPreferences("MyNote", MODE_PRIVATE);
+
         mBtnSaveNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
