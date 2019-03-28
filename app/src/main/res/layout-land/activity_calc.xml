@@ -11,15 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="top"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         tools:context=".CalcActivity"
         tools:ignore="UselessParent">
 
         <LinearLayout
             android:id="@+id/resultTViewCalcLayout"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:orientation="vertical">
+            android:layout_height="60dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/resultTViewCalc"
@@ -142,6 +142,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/divide"/>
+
+                <Button
+                    android:id="@+id/changeMode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/change_mode"/>
+
+                <Button
+                    android:id="@+id/emptyBtn2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.001"/>
+
+                <Button
+                    android:id="@+id/emptyBtn3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.001"/>
             </LinearLayout>
 
             <LinearLayout
@@ -274,39 +293,6 @@
                     android:layout_weight="1"
                     android:text="@string/equals"/>
             </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/fifthLineBtnLayout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="ButtonStyle">
-
-                <Button
-                    android:id="@+id/changeMode"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:text="@string/change_mode"/>
-
-                <Button
-                    android:id="@+id/emptyBtn2"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-
-                <Button
-                    android:id="@+id/emptyBtn3"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-
-                <Button
-                    android:id="@+id/emptyBtn4"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-            </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
 
@@ -317,15 +303,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="top"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         tools:context=".CalcActivity"
         tools:ignore="UselessParent">
 
         <LinearLayout
             android:id="@+id/resultTViewCalcLayoutI"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:orientation="vertical">
+            android:layout_height="60dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/resultTViewCalcI"
@@ -448,6 +434,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/divide"/>
+
+                <Button
+                    android:id="@+id/changeModeI"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/change_mode"/>
+
+                <Button
+                    android:id="@+id/emptyBtn2I"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.001"/>
+
+                <Button
+                    android:id="@+id/emptyBtn3I"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.001"/>
             </LinearLayout>
 
             <LinearLayout
@@ -480,6 +485,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/multiply"/>
+
+                <Button
+                    android:id="@+id/degBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deg"/>
+
+                <Button
+                    android:id="@+id/sinBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sin"/>
+
+                <Button
+                    android:id="@+id/cosBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cos"/>
             </LinearLayout>
 
             <LinearLayout
@@ -512,6 +535,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/minus"/>
+
+                <Button
+                    android:id="@+id/tanBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tan"/>
+
+                <Button
+                    android:id="@+id/lgBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lg"/>
+
+                <Button
+                    android:id="@+id/lnBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ln"/>
             </LinearLayout>
 
             <LinearLayout
@@ -544,6 +585,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/plus"/>
+
+                <Button
+                    android:id="@+id/piBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi"/>
+
+                <Button
+                    android:id="@+id/secondValueBtnI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/second_value"/>
+
+                <Button
+                    android:id="@+id/sqrtI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sqrt"/>
             </LinearLayout>
 
             <LinearLayout
@@ -579,117 +638,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/equals"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/fifthLineBtnLayoutI"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="ButtonStyle">
-
-                <Button
-                    android:id="@+id/changeModeI"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:text="@string/change_mode"/>
-
-                <Button
-                    android:id="@+id/emptyBtn2I"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-
-                <Button
-                    android:id="@+id/emptyBtn3I"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-
-                <Button
-                    android:id="@+id/emptyBtn4I"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.001"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/sixthLineBtnLayoutI"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="ButtonStyle">
-
-                <Button
-                    android:id="@+id/degBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/deg"/>
-
-                <Button
-                    android:id="@+id/sinBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sin"/>
-
-                <Button
-                    android:id="@+id/cosBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cos"/>
-
-                <Button
-                    android:id="@+id/tanBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tan"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/seventhLineBtnLayoutI"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="ButtonStyle">
-
-                <Button
-                    android:id="@+id/lgBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/lg"/>
-
-                <Button
-                    android:id="@+id/lnBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/ln"/>
-
-                <Button
-                    android:id="@+id/piBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pi"/>
-
-                <Button
-                    android:id="@+id/secondValueBtnI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/second_value"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/eighthLineBtnLayoutI"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                tools:ignore="ButtonStyle">
-
-                <Button
-                    android:id="@+id/sqrtI"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sqrt"/>
 
                 <Button
                     android:id="@+id/intI"

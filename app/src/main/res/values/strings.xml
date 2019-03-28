@@ -94,5 +94,9 @@
     <string name="ln">ln</string>
     <string name="pi">pi</string>
     <string name="second_value">2nd</string>
+    <string name="sqrt">√</string>
+    <string name="integral">int</string>
+    <string name="e">e</string>
+    <string name="rad">rad</string>
 
 </resources>
