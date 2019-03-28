@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class EndlessTransition extends AppCompatActivity {
+public class EndlessTransitionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class EndlessTransition extends AppCompatActivity {
         forwardBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EndlessTransition.this, EndlessTransition.class);
+                Intent intent = new Intent(EndlessTransitionActivity.this, EndlessTransitionActivity.class);
                 startActivity(intent);
             }
         });

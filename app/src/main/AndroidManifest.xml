@@ -14,7 +14,7 @@
             android:label="@string/title_activity_calc">
         </activity>
         <activity
-            android:name=".AppBar"
+            android:name=".AppBarActivity"
             android:label="@string/title_activity_app_bar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,11 +39,11 @@
             android:label="@string/title_activity_check_box">
         </activity>
         <activity
-            android:name=".EndlessTransition"
+            android:name=".EndlessTransitionActivity"
             android:label="@string/title_activity_endless_transition">
         </activity>
         <activity
-            android:name=".EntryForm"
+            android:name=".EntryFormActivity"
             android:label="@string/title_activity_entry_form">
         </activity>
         <activity
