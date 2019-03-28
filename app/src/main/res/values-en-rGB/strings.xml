@@ -100,10 +100,10 @@
     <string name="e">e</string>
     <string name="rad">rad</string>
 
-    <string name="change_language_text">Привет мир!</string>
+    <string name="change_language_text">Hello world!</string>
     <string-array name="change_language">
-        <item>Русский</item>
-        <item>Английский</item>\
+        <item>Russian</item>
+        <item>English</item>\
     </string-array>
 
 </resources>
