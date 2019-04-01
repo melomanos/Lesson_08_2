@@ -24,33 +24,42 @@
         </activity>
         <activity
             android:name=".AppBarActivity"
-            android:label="@string/title_activity_app_bar"></activity>
+            android:label="@string/title_activity_app_bar">
+        </activity>
         <activity
             android:name=".SharedPreferencesNotesActivity"
-            android:label="@string/title_activity_shared_preferences_notes"></activity>
+            android:label="@string/title_activity_shared_preferences_notes">
+        </activity>
         <activity
             android:name=".CalendarViewActivity"
-            android:label="@string/title_activity_calendar_view"></activity>
+            android:label="@string/title_activity_calendar_view">
+        </activity>
         <activity
             android:name=".SpinnerActivity"
-            android:label="@string/title_activity_spinner"></activity>
+            android:label="@string/title_activity_spinner">
+        </activity>
         <activity
             android:name=".CheckBoxActivity"
-            android:label="@string/title_activity_check_box"></activity>
+            android:label="@string/title_activity_check_box">
+        </activity>
         <activity
             android:name=".EndlessTransitionActivity"
-            android:label="@string/title_activity_endless_transition"></activity>
+            android:label="@string/title_activity_endless_transition">
+        </activity>
         <activity
             android:name=".EntryFormActivity"
-            android:label="@string/title_activity_entry_form"></activity>
+            android:label="@string/title_activity_entry_form">
+        </activity>
         <activity
             android:name=".SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_splash_screen"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme">
+        </activity>
         <activity
             android:name=".FirstActivity"
-            android:label="@string/title_activity_first"></activity>
+            android:label="@string/title_activity_first">
+        </activity>
     </application>
 
 </manifest>
