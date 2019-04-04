@@ -16,11 +16,16 @@ public class ChangeLanguageActivity extends Activity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_language);
-        Utils.onActivityCreateSetTheme(this);
+        Utils.onActivityCreateSetColorTheme(this);
+        Utils.onActivityCreateSetMarginTheme(this);
 
         Button okBtnLanguage = findViewById(R.id.okBtnLanguage);
+
         Button okBtnColor = findViewById(R.id.okBtnColor);
         okBtnColor.setOnClickListener(this);
+
+        Button okBtnMargin = findViewById(R.id.okBtnMargin);
+        okBtnMargin.setOnClickListener(this);
 
         okBtnLanguage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,16 +53,29 @@ public class ChangeLanguageActivity extends Activity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        Spinner spinner = findViewById(R.id.colorSpinner);
-        int selectedColor = spinner.getSelectedItemPosition();
+        Spinner colorSpinner = findViewById(R.id.colorSpinner);
+        Spinner marginSpinner = findViewById(R.id.marginSpinner);
+
+        int selectedColor = colorSpinner.getSelectedItemPosition();
+        int selectedMargin = marginSpinner.getSelectedItemPosition();
+
         System.out.println(selectedColor);
+        System.out.println(selectedMargin);
 
         if (selectedColor == 0) {
-            Utils.changeToTheme(this, Utils.THEME_BLACK);
+            Utils.changeToColorTheme(this, Utils.THEME_BLACK);
         } else if (selectedColor == 1) {
-            Utils.changeToTheme(this, Utils.THEME_GREEN);
+            Utils.changeToColorTheme(this, Utils.THEME_GREEN);
         } else if (selectedColor == 2) {
-            Utils.changeToTheme(this, Utils.THEME_BLUE);
+            Utils.changeToColorTheme(this, Utils.THEME_BLUE);
+        }
+
+        if (selectedMargin == 0) {
+            Utils.changeToMarginTheme(this, Utils.THEME_MARGIN1);
+        } else if (selectedMargin == 1) {
+            Utils.changeToMarginTheme(this, Utils.THEME_MARGIN2);
+        } else if (selectedMargin == 2) {
+            Utils.changeToMarginTheme(this, Utils.THEME_MARGIN3);
         }
     }
 }

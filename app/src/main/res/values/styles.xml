@@ -47,4 +47,16 @@
         <item name="android:background">@color/darkBlue</item>
     </style>
 
+    <style name="Margin1Theme" parent="AppTheme">
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="Margin2Theme" parent="AppTheme">
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="Margin3Theme" parent="AppTheme">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
 </resources>

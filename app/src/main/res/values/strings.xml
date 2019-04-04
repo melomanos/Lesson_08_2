@@ -112,4 +112,10 @@
         <item>Blue</item>
     </string-array>
 
+    <string-array name="selection_margin">
+        <item>Margin1</item>
+        <item>Margin2</item>
+        <item>Margin3</item>
+    </string-array>
+
 </resources>
