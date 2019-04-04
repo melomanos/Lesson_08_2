@@ -103,7 +103,13 @@
     <string name="change_language_text">Hello world!</string>
     <string-array name="change_language">
         <item>Russian</item>
-        <item>English</item>\
+        <item>English</item>
+    </string-array>
+
+    <string-array name="selection_color">
+        <item>Black</item>
+        <item>Green</item>
+        <item>Blue</item>
     </string-array>
 
 </resources>

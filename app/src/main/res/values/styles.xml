@@ -26,4 +26,25 @@
         <item name="colorControlHighlight">#673ab7</item>
     </style>
 
+    <style name="BlackTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorPrimaryDark">@color/darkGrey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/darkGreen</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/darkBlue</item>
+    </style>
+
 </resources>

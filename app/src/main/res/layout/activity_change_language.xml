@@ -14,7 +14,7 @@
         tools:ignore="MissingConstraints"/>
 
     <Button
-        android:id="@+id/okBtn"
+        android:id="@+id/okBtnLanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ok"
@@ -26,7 +26,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/change_language_text"
-        app:layout_constraintTop_toBottomOf="@id/okBtn"
+        app:layout_constraintTop_toBottomOf="@id/okBtnLanguage"
+        tools:ignore="MissingConstraints"/>
+
+    <Spinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/selection_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/okBtnColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        app:layout_constraintTop_toBottomOf="@id/colorSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"/>
 
 </android.support.constraint.ConstraintLayout>

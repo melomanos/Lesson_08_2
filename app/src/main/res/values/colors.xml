@@ -5,4 +5,14 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="black_overlay">#66000000</color>
+
+    <color name="grey">#757575</color>
+    <color name="darkGrey">#3F4448</color>
+
+    <color name="green">#0cff00</color>
+    <color name="darkGreen">#009b12</color>
+
+    <color name="blue">#00bfff</color>
+    <color name="darkBlue">#047ef7</color>
+
 </resources>
